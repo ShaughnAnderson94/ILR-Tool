@@ -9,7 +9,7 @@
     "make": "electron-forge make"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shaughn Anderson",
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^7.6.0",
