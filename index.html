@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ILR File Creator</title>
+  </head>
+  <body>
+    <h1>ILR File Creator</h1>
+
+    <form id="uploadForm">
+      <label>Release Version</label>
+      <input type="text" id="releaseVersion" required />
+      <br />
+      <label>UKPRN</label>
+      <input type="text" id="ukprn" required />
+      <br />
+      <label>CSV File</label>
+      <input type="file" id="csvFile" accept=".csv" required />
+      <button type="submit">Upload CSV</button>
+    </form>
+    <div id="output"></div>
+    <div id="formatErrors"></div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

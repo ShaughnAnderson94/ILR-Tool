@@ -1,0 +1,36 @@
+{
+  "name": "ilr_file_creator",
+  "version": "1.0.0",
+  "description": "The DFE tool for creating XML files that can be uploaded to their website is slow and limited in its function. We have an airtable that contains all the information it asks for but its hard to move that information. To fixt this we built a tool that takes the CSV values generated from our airtable and processes them to a XML file withouth having to refill any information.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^33.0.0"
+  },
+  "dependencies": {
+    "@electron-forge/maker-dmg": "^7.6.0",
+    "@electron-forge/maker-pkg": "^7.6.0",
+    "csv-parse": "^5.5.6",
+    "electron-log": "^5.2.3",
+    "electron-squirrel-startup": "^1.0.1",
+    "papaparse": "^5.4.1",
+    "v8": "^0.1.0",
+    "xmlbuilder": "^15.1.1",
+    "xmllint": "^0.1.1"
+  }
+}
